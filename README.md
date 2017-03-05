@@ -7,7 +7,10 @@ Solutions provided within this repository are in no way the best or most optimiz
 
 Problems are provided below, answers are in the corresponding folder, either as a txt document or as a java program.
 
-## Problem 1A
+## Problem 1
+
+### Part A
+
 Consider the following recursive method
 
 ```java
@@ -27,7 +30,7 @@ public int recMethod (int number) {
 
 (c) What does **recMethod** do (i.e. what does it compute)? 
 
-## Problem 1B
+### Part B
 Write a recursive function that given a non-negative integer **n**, returns the count of the occurrences of 7 as a digit, so for example 717 yields 2
 
 ## Problem 2
@@ -61,13 +64,13 @@ public class Foo implements Comparable<Foo>
 	}
 }
 ```
-
-A. Write a method that creates an ArrayList object and fills it with **n** objects of type **Foo** initialized with random values of x and y (you can pick the range of values).
+### Part A
+Write a method that creates an ArrayList object and fills it with **n** objects of type **Foo** initialized with random values of x and y (you can pick the range of values).
 
 The value of **n** is specified as a parameter.
 
-
-B. If you have the following array of **Foo** objects
+### Part B
+If you have the following array of **Foo** objects
 
 |    | 0   | 1    | 2   | 3    | 4   | 5    | 6   | 7    | 8   | 9   |
 |----|-----|------|-----|------|-----|------|-----|------|-----|-----|
