@@ -73,3 +73,26 @@ B. If you have the following array of **Foo** objects
 | x= | 1.0 | -2.0 | 1.0 | 1.0  | 2.5 | -1.0 | 0.0 | -1.0 | 0.0 | 0.0 |
 | y= | 1.0 | 2.0  | 2.0 | -1.0 | 0.0 | 0.0  | 3.0 | -4.0 | 0.0 | 1.5 |
 show what the array will look like after it is passed as an argument to **Arrays.sort(... ) method
+
+## Problem 4
+Show the content of the initially empty, stack of Character objects after each of the following operations
+
+Assume that the implementation is array based and follows the efficiency ideas that we discussed in class. Assume that the initial capacity of the array to store the stack is equal to 5 and that its size is doubled whenever the array runs out of room. Initial non-existent locations are marked with X. In the consecutive rows you should cross out all non-existent locations in the array.
+
+| operation        | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|------------------|---|---|---|---|---|---|---|---|---|---|
+| stack.push('c'); | c |   |   |   |   | X | X | X | X | X |
+| stack.push('s'); |   |   |   |   |   |   |   |   |   |   |
+| stack.pop();     |   |   |   |   |   |   |   |   |   |   |
+| stack.push('A'); |   |   |   |   |   |   |   |   |   |   |
+| stack.push('w'); |   |   |   |   |   |   |   |   |   |   |
+| stack.push('l'); |   |   |   |   |   |   |   |   |   |   |
+| stack.push('p'); |   |   |   |   |   |   |   |   |   |   |
+| stack.peek();    |   |   |   |   |   |   |   |   |   |   |
+| stack.pop();     |   |   |   |   |   |   |   |   |   |   |
+| stack.push('%'); |   |   |   |   |   |   |   |   |   |   |
+| stack.pop();     |   |   |   |   |   |   |   |   |   |   |
+| stack.push('x'); |   |   |   |   |   |   |   |   |   |   |
+| stack.pop();     |   |   |   |   |   |   |   |   |   |   |
+
+

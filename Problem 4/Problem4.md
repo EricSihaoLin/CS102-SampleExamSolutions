@@ -1,0 +1,15 @@
+| operation        | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | Notes / Explanation                                                                                                                      |
+|------------------|---|---|---|---|---|---|---|---|---|---|------------------------------------------------------------------------------------------------------------------------------------------|
+| stack.push('c'); | c |   |   |   |   | X | X | X | X | X | Push c onto stack                                                                                                                        |
+| stack.push('s'); | c | s |   |   |   | X | X | X | X | X | Push s onto stack                                                                                                                        |
+| stack.pop();     | c |   |   |   |   | X | X | X | X | X | Pop s from stack                                                                                                                         |
+| stack.push('A'); | c | A |   |   |   | X | X | X | X | X | Push A onto stack                                                                                                                        |
+| stack.push('w'); | c | A | w |   |   | X | X | X | X | X | Push w onto stack                                                                                                                        |
+| stack.push('l'); | c | A | w | l |   | X | X | X | X | X | Push l onto stack                                                                                                                        |
+| stack.push('p'); | c | A | w | l | p | X | X | X | X | X | Push p onto stack. CAREFUL HERE! The stack is full, but it didn't get a second request  to push additional items, so it will not expand! |
+| stack.peek();    | c | A | w | l | p | X | X | X | X | X | Peek will return the top most element, which is character p, but it WILL NOT remove the element                                          |
+| stack.pop();     | c | A | w | l |   | X | X | X | X | X | Pop p from stack                                                                                                                         |
+| stack.push('%'); | c | A | w | l | % | X | X | X | X | X | Push % onto stack                                                                                                                        |
+| stack.pop();     | c | A | w | l |   | X | X | X | X | X | Pop % from stack                                                                                                                         |
+| stack.push('x'); | c | A | w | l | x | X | X | X | X | X | Push x onto stack                                                                                                                        |
+| stack.pop();     | c | A | w | l |   | X | X | X | X | X | Pop x from stack  
