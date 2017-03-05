@@ -68,10 +68,12 @@ The value of **n** is specified as a parameter.
 
 
 B. If you have the following array of **Foo** objects
+
 |    | 0   | 1    | 2   | 3    | 4   | 5    | 6   | 7    | 8   | 9   |
 |----|-----|------|-----|------|-----|------|-----|------|-----|-----|
 | x= | 1.0 | -2.0 | 1.0 | 1.0  | 2.5 | -1.0 | 0.0 | -1.0 | 0.0 | 0.0 |
 | y= | 1.0 | 2.0  | 2.0 | -1.0 | 0.0 | 0.0  | 3.0 | -4.0 | 0.0 | 1.5 |
+
 show what the array will look like after it is passed as an argument to **Arrays.sort(... ) method
 
 ## Problem 4
