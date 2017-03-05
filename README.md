@@ -9,7 +9,7 @@ Problems are provided below, answers are in the corresponding folder, either as 
 
 ## Problem 1
 
-### Part A
+### 1.A
 
 Consider the following recursive method
 
@@ -30,7 +30,7 @@ public int recMethod (int number) {
 
 (c) What does **recMethod** do (i.e. what does it compute)? 
 
-### Part B
+### 1.B
 Write a recursive function that given a non-negative integer **n**, returns the count of the occurrences of 7 as a digit, so for example 717 yields 2
 
 ## Problem 2
@@ -64,12 +64,12 @@ public class Foo implements Comparable<Foo>
 	}
 }
 ```
-### Part A
-Write a method that creates an ArrayList object and fills it with **n** objects of type **Foo** initialized with random values of x and y (you can pick the range of values).
+### 3.A
+Write a method that creates an ArrayList object and fills it with **n** objects of type **Foo** initialized with random values of **x** and **y** (you can pick the range of values).
 
 The value of **n** is specified as a parameter.
 
-### Part B
+### 3.B
 If you have the following array of **Foo** objects
 
 |    | 0   | 1    | 2   | 3    | 4   | 5    | 6   | 7    | 8   | 9   |
@@ -77,7 +77,7 @@ If you have the following array of **Foo** objects
 | x= | 1.0 | -2.0 | 1.0 | 1.0  | 2.5 | -1.0 | 0.0 | -1.0 | 0.0 | 0.0 |
 | y= | 1.0 | 2.0  | 2.0 | -1.0 | 0.0 | 0.0  | 3.0 | -4.0 | 0.0 | 1.5 |
 
-show what the array will look like after it is passed as an argument to **Arrays.sort(... ) method
+show what the array will look like after it is passed as an argument to **Arrays.sort(... )** method
 
 ## Problem 4
 Show the content of the initially empty, stack of Character objects after each of the following operations
@@ -100,4 +100,24 @@ Assume that the implementation is array based and follows the efficiency ideas t
 | stack.push('x'); |   |   |   |   |   |   |   |   |   |   |
 | stack.pop();     |   |   |   |   |   |   |   |   |   |   |
 
+
+## Problem 5
+
+### 5.A
+
+Write a method that given a sorted **ArrayList** object of Java strings (objects of class String) removes all duplicates. Your method should modify the **ArrayList** object passed to it. The method should return a boolean value indicating if the list was modified or not (**true** for "has been modified", **false** for "has not been modified"). For example, if the original list passed to your method contains the following strings:
+
+```
+Argentina, Chile, Chile, Czech Republic, France, Georgia, India, India, Poland, Romania, Romania
+```
+
+your method should remove one occurrence of Chile, India and Romania. The resulting list should contain:
+
+```
+Argentina, Chile, Czech Republic, France, Georgia, India, Poland, Romania
+```
+
+What is the performance of your method? Use Big-O notation.
+
+### 5.B
 
